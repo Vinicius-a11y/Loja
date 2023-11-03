@@ -1,3 +1,67 @@
-* {
-    background: black
+body {
+  background: url(https://source.unsplash.com/featured/1920x1080);
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  left: 300;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+  width: 85%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.form .botão {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cadastro {
+  background: rgb (0, 0, 0, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 15px;
+  color: black;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.dados{
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.botão {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form .botão:hover {
+  background-color: #1f6db5;
+}
+
+.botão:hover {
+  background-color: #2980b9;
+}
+
